@@ -3,6 +3,8 @@
 <head>
 	<title>Joyería Onix</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, orientation=auto">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script defer src="js/mi-script.js"></script>
 	<style>
 		#mi-iframe {
 			position: absolute;
@@ -16,5 +18,10 @@
 </head>
 <body>
 	<iframe id="mi-iframe" src="JoyeriOnix.html"></iframe>
+	<script>
+		setInterval(function() {
+			location.reload();
+		}, 300000); // 300000 milisegundos = 5 minutos
+	</script>
 </body>
 </html>
